@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(intercomDidHide),
                                                name: NSNotification.Name.IntercomWindowDidHide,
                                                object: nil)
-        Intercom.setApiKey("ios_sdk-adc9042202780151dc7f61147911b49999539bed", forAppId: "odymwnr8")
+        Intercom.setApiKey("YOUR_API_KEY", forAppId: "YOUR_APP_ID")
         Intercom.registerUnidentifiedUser()
         return true
     }
