@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1951009627A1693700E203C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951009527A1693700E203C5 /* AppDelegate.swift */; };
-		1951009827A1693700E203C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951009727A1693700E203C5 /* SceneDelegate.swift */; };
 		1951009A27A1693700E203C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951009927A1693700E203C5 /* ViewController.swift */; };
 		1951009D27A1693700E203C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1951009B27A1693700E203C5 /* Main.storyboard */; };
 		1951009F27A1693900E203C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1951009E27A1693900E203C5 /* Assets.xcassets */; };
 		195100A227A1693900E203C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195100A027A1693900E203C5 /* LaunchScreen.storyboard */; };
-		195100AB27A169FB00E203C5 /* Intercom.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195100A927A169F700E203C5 /* Intercom.xcframework */; };
-		195100AC27A169FB00E203C5 /* Intercom.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 195100A927A169F700E203C5 /* Intercom.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		195100B127A1A90A00E203C5 /* Intercom.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195100AF27A1A90500E203C5 /* Intercom.xcframework */; };
+		195100B227A1A90A00E203C5 /* Intercom.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 195100AF27A1A90500E203C5 /* Intercom.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				195100AC27A169FB00E203C5 /* Intercom.xcframework in Embed Frameworks */,
+				195100B227A1A90A00E203C5 /* Intercom.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,13 +33,12 @@
 /* Begin PBXFileReference section */
 		1951009227A1693700E203C5 /* JoyTunesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyTunesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1951009527A1693700E203C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1951009727A1693700E203C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1951009927A1693700E203C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1951009C27A1693700E203C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1951009E27A1693900E203C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195100A127A1693900E203C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195100A327A1693900E203C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		195100A927A169F700E203C5 /* Intercom.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Intercom.xcframework; sourceTree = "<group>"; };
+		195100AF27A1A90500E203C5 /* Intercom.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Intercom.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195100AB27A169FB00E203C5 /* Intercom.xcframework in Frameworks */,
+				195100B127A1A90A00E203C5 /* Intercom.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +56,7 @@
 		1951008927A1693700E203C5 = {
 			isa = PBXGroup;
 			children = (
-				195100A927A169F700E203C5 /* Intercom.xcframework */,
+				195100AF27A1A90500E203C5 /* Intercom.xcframework */,
 				1951009427A1693700E203C5 /* JoyTunesDemo */,
 				1951009327A1693700E203C5 /* Products */,
 			);
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				1951009527A1693700E203C5 /* AppDelegate.swift */,
-				1951009727A1693700E203C5 /* SceneDelegate.swift */,
 				1951009927A1693700E203C5 /* ViewController.swift */,
 				1951009B27A1693700E203C5 /* Main.storyboard */,
 				1951009E27A1693900E203C5 /* Assets.xcassets */,
@@ -160,7 +157,6 @@
 			files = (
 				1951009A27A1693700E203C5 /* ViewController.swift in Sources */,
 				1951009627A1693700E203C5 /* AppDelegate.swift in Sources */,
-				1951009827A1693700E203C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -292,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
